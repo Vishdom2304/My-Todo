@@ -1,0 +1,40 @@
+#c1 {
+background-color: #06bcc1;
+border: 7px solid rgba(0, 0, 0, 0.75);
+}
+#c2 {
+  color: grey;
+  background-color: #f4edea;
+  border: 10px solid#f4edae;
+  width: 55%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotes{
+  color: grey;
+  background-color: #f4edea;
+}
+
+.quotes p{
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 560px){
+  #c2{
+    height: 80vh;
+  }
+  .quotes p{
+    font-size: 0.75 rem;
+  }
+}
+
+@media only screen and (max-width: 765px) and (min-width: 561px){
+  #c2{
+    height: 60vh;
+  }
+  .quotes p{
+    font-size: 1 rem;
+  }
+}
